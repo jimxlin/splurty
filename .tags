@@ -15,10 +15,14 @@ ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < 
 ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
 Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
 Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateQuotes	db/migrate/20170103230326_create_quotes.rb	/^class CreateQuotes < ActiveRecord::Migration[5.0]$/;"	c
+Quote	app/models/quote.rb	/^class Quote < ApplicationRecord$/;"	c
+QuoteTest	test/models/quote_test.rb	/^class QuoteTest < ActiveSupport::TestCase$/;"	c
 QuotesController	app/controllers/quotes_controller.rb	/^class QuotesController < ApplicationController$/;"	c
 QuotesControllerTest	test/controllers/quotes_controller_test.rb	/^class QuotesControllerTest < ActionDispatch::IntegrationTest$/;"	c
 QuotesHelper	app/helpers/quotes_helper.rb	/^module QuotesHelper$/;"	m
 Splurty	config/application.rb	/^module Splurty$/;"	m
+change	db/migrate/20170103230326_create_quotes.rb	/^  def change$/;"	f	class:CreateQuotes
 index	app/controllers/quotes_controller.rb	/^  def index$/;"	f	class:QuotesController
 system!	bin/setup	/^def system!(*args)$/;"	f
 system!	bin/update	/^def system!(*args)$/;"	f
