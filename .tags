@@ -23,7 +23,9 @@ QuotesControllerTest	test/controllers/quotes_controller_test.rb	/^class QuotesCo
 QuotesHelper	app/helpers/quotes_helper.rb	/^module QuotesHelper$/;"	m
 Splurty	config/application.rb	/^module Splurty$/;"	m
 change	db/migrate/20170103230326_create_quotes.rb	/^  def change$/;"	f	class:CreateQuotes
+create	app/controllers/quotes_controller.rb	/^  def create$/;"	f	class:QuotesController
 index	app/controllers/quotes_controller.rb	/^  def index$/;"	f	class:QuotesController
 new	app/controllers/quotes_controller.rb	/^  def new$/;"	f	class:QuotesController
+quote_params	app/controllers/quotes_controller.rb	/^  def quote_params$/;"	f	class:QuotesController
 system!	bin/setup	/^def system!(*args)$/;"	f
 system!	bin/update	/^def system!(*args)$/;"	f
