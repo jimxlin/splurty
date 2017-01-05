@@ -1,24 +1,6 @@
-# README
+# Splurty
+This is the first project from [The Firehose Project](www.thefirehoseproject.com).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Designed to get the toes wet with Rails, this project randomly shows a quote from a database, and allows any viewer to submit their own.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A [working version](https://firehose-splurty-jim-lin.herokuapp.com/) is hosted on Heroku.
